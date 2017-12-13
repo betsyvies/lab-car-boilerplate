@@ -58,3 +58,14 @@ nav.modify {
     font-size: 1.8rem;
     padding: 10px;
 }
+
+/* Styles for second section */
+
+.border {
+    height: 90%;
+    border-color: 1px solid #FFFFFF;
+}
+
+[alt="iPhone6Plus"] {
+    width: 50%;
+}
