@@ -1,1 +1,60 @@
 /* Los estilos de tu proyecto */
+
+/* Global */
+
+body { 
+    padding-top: 70px; 
+}
+
+
+/* Changing default styles navbar*/
+
+nav.modify {
+    background-color: #FFFFFF;
+    border: none;
+}
+
+.modify .color-grey-white {
+    border-color: #DDDDDD;
+    margin-bottom: 0;
+    margin-top: 15px; 
+}
+
+.modify .color-grey-white .color-grey {
+    background-color: #888888;
+}
+
+/* Style for first section */
+
+.background {
+    padding: 160px 0px;
+    background-image: url(../assets/images/taxi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 90%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.color {
+    background-color: #F7B617;
+} 
+
+.color h1 {
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    margin: 40px;
+    margin-bottom: 0;
+}
+
+[alt="logo-blanco"] {
+    width: 22%;
+}
+
+.button {
+    margin: 40px;
+    border: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.8rem;
+    padding: 10px;
+}
