@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Labcar</title>
-    <!-- Import Font -->
+    <!-- Import Font Google-->
     <link href="https://fonts.googleapis.com/css?family=Raleway:700" rel="stylesheet">
+    <!-- Import Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
     <link type="text/css" rel="stylesheet" href="css/main.css">
@@ -24,7 +26,7 @@
           </button>
           <a class="navbar-brand" href="#"><img src="assets/images/logoForma.png" alt="logoForma"></a>
         </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
+        <div class="collapse navbar-collapse clearfix" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#">Viaja</a></li>
             <li><a href="#">Conduce</a></li> 
@@ -34,31 +36,120 @@
       </div>
     </nav>
     <!-- First Section -->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12 col-md-12 background">
-          <div class="col-xs-10 color">
-            <h1>Comienza a viajar con <a href="#"><img src="assets/images/logoBlanco.png" alt="logo-blanco"></a></h1>
-            <button class="btn btn-default button" type="submit">Descarga el app</button>
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12 col-md-12 background">
+            <div class="col-xs-10 color">
+              <h1>Comienza a viajar con <a href="#"><img src="assets/images/logoBlanco.png" alt="logo-blanco"></a></h1>
+              <button class="btn btn-default btn-xs clearfix button" type="submit">Descarga el app</button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <!-- Second Section -->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12 col-md-12 color">
-          <div class="col-xs-10 border">
-            <h4>La nueva app</h4>
-            <img src="assets/images/iPhone6Plus.png" alt="iPhone6Plus">
-          </div>
-          <div class="col-xs-10">
-            <p>LLega a tu destino aún más rápido</p>
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12 col-md-12 container-first-section">
+            <div class="col-xs-12">
+              <div class="first-section">
+                <div class="title-img">
+                  <h3>La nueva app</h3>
+                </div>
+                <div class="title-img">
+                  <img src="assets/images/iPhone6Plus.png" alt="iPhone6Plus">
+                </div>
+              </div>
+              <div class="paragraph">
+                <p>LLega a tu destino aún más rápido</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-
+    </section>
+    <!-- Third Section -->
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12 col-md-12 background-third-section">
+            <div class="col-xs-12 letter">
+              <h3>Conduce cuando quieras</h3>
+              <p>LabCar es una opción flexible para alcanzar tus metas financieras.</p>
+              <button class="btn btn-default btn-xs button-color btn-block" type="submit">Conviértete en conductor</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Quarter Section -->
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12 col-md-12 color">
+            <div class="col-xs-10 color-quarter">
+              <div class="paragraph-quarter">
+                <h4>Tarifas</h4>
+                <h5>Consulta las tarifas LabCar aquí</h5>
+              </div>
+              <div class="container-input">
+                <img src="assets/images/shape.png" alt="shape">
+                <input class="btn btn-default input" placeholder="Insurgentes Centro, Cuauhtémoc, Ciudad de México,Mé">
+              </div>
+              <div class="container-input">
+                <img src="assets/images/shape2.png" alt="shape">
+                <input class="btn btn-default input" placeholder="Carolina, Ciudad de los Deportes, Ciudad de México,Mé">
+              </div>
+            </div>
+            <button class="btn btn-default btn-xs button-quarter center-block" type="submit">¡TRAZAR RUTA!</button>
+            <div class="map">
+              <img src="assets/images/mapa.png" alt="mapa">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Fifth Section -->
+    <footer>
+      <div class="container-footer">
+        <div class="first-section-footer">
+          <img src="assets/images/logoBlanco.png" alt="logoBlanco">
+          <hr>
+          <div class="list">
+            <div class="container-list pull-left">
+              <ul>
+                <li>Viaja</li>
+                <li>Conduce</li>
+                <li><a href="#">Ciudades</a></li>
+                <li><a href="#">Entregas</a></li>
+                <li><a href="#">¿Cómo funciona?</a></li>
+                <li><a href="#">Países</a></li>
+                <li><a href="#">Seguridad</a></li>
+              </ul>
+            </div>
+            <div class="icon pull-rigth">
+              <div class="icon-white">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                <i class="fa fa-apple" aria-hidden="true"></i>
+                <i class="fa fa-play" aria-hidden="true"></i>
+              </div>
+              <div class="icon-black">
+                <img src="assets/images/enBadgeWebGeneric.png" alt="enBadgeWebGeneric">
+                <img src="assets/images/appstore.png" alt="appstore">
+              </div>
+            </div>
+            <hr>
+            <div class="span">
+              <span>© 2017 LabCar technologies Inc.</span>                     
+            </div>         
+          </div>
+        </div>
+      </div>
+    </footer>
     <!-- Import jQuery and Bootstrap.js -->
     <script type="text/javascript" src="vendors/js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="vendors/bootstrap/js/bootstrap.min.js"></script>

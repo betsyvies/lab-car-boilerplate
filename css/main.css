@@ -57,15 +57,184 @@ nav.modify {
     font-family: 'Raleway', sans-serif;
     font-size: 1.8rem;
     padding: 10px;
-}
+} 
 
 /* Styles for second section */
 
-.border {
+.container-first-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7B617;
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+}
+
+.first-section {
+    border: 1px solid #FFFFFF;
+    margin-top: 7%;
+    padding-top: 10%;
+    padding-bottom: 7%;
+}
+
+.title-img {
+    display: flex;
+    justify-content: center;
     height: 90%;
-    border-color: 1px solid #FFFFFF;
 }
 
 [alt="iPhone6Plus"] {
     width: 50%;
+    height: 45%;
+}
+
+.paragraph {
+    font-size: 1.7rem;
+    margin-top: 7%; 
+}
+
+/* Styles for third section */
+
+.background-third-section {
+    padding-top: 100px;
+    padding-bottom: 200px;
+    background-image: url(../assets/images/conduce.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 100%;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.background-third-section::before {
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.6);
+    }
+
+.letter {
+    font-size: 1.8rem;
+}
+
+.button-color {
+    background-color: #F7B617;
+    border: 0;
+    color: #FFFFFF;
+    font-size: 1.8rem;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+/* Styles for quarter section */
+
+.paragraph-quarter {
+    margin-top: 30%;
+}
+
+.color-quarter {
+    color: #FFFFFF;
+}
+
+.input {
+    background-color: transparent;
+    border-color: #FFFFFF; 
+    border-radius: 1rem;
+    margin-left: 3px;
+    margin-top: 5%;
+}
+
+.container-input {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 25px;
+}
+
+[alt="shape"] {
+    width: 10%;
+    height: 10%;
+    margin: 15px;
+}
+
+.button-quarter {
+    padding: 10px 25px;
+    margin-bottom: 10%; 
+}
+
+.map {
+    border: 1px solid #FFFFFF;
+    padding: 10px;
+    margin-bottom: 15%;
+}
+
+[alt="mapa"] {
+    width: 100%;
+}
+/* Style for placeholder */
+
+::-webkit-input-placeholder { color: #FFFFFF; }
+::-moz-placeholder { color:#FFFFFF; }
+:-ms-input-placeholder { color:#FFFFFF; }
+input:-moz-placeholder { color:#FFFFFF; }
+
+/* Styles for footer */
+
+.container-footer {
+    background-color: #2B2B2B;
+    color: #FFFFFF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+[alt="logoBlanco"] {
+    padding-left: 10px;
+    width: 35%;
+}
+
+.container-list ul {
+    margin-top: 0;
+    padding-left: 10px;
+}
+
+.container-list ul li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.container-list ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.icon-white {
+    display: inline-block;
+    margin-bottom: 15%;
+    margin-left: 15%;
+}
+
+.icon-white i {
+    padding-right: 10px;
+}
+
+.icon-black {
+    margin-bottom: 15%;
+    
+}
+
+.icon-black img {
+    display: inline-block;
+    width: 40%;
+    height: 15%;
+    margin-bottom: 20px;
+    margin-left: 15%;
+}
+
+.span {
+    padding-left: 10px;
 }
