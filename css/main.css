@@ -6,6 +6,7 @@ body {
     padding-top: 70px; 
 }
 
+/* Styles for Movil */
 
 /* Changing default styles navbar*/
 
@@ -77,49 +78,43 @@ nav.modify {
     padding-bottom: 7%;
 }
 
-.title-img {
-    display: flex;
-    justify-content: center;
-    height: 90%;
-}
-
 [alt="iPhone6Plus"] {
     width: 50%;
     height: 45%;
 }
 
 .paragraph {
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     margin-top: 7%; 
 }
 
 /* Styles for third section */
 
 .background-third-section {
-    padding-top: 100px;
+    padding-top: 200px;
     padding-bottom: 200px;
     background-image: url(../assets/images/conduce.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center 100%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     color: #FFFFFF;
     position: relative;
 }
 
-.background-third-section::before {
-    content:"";
+.container-letter {
+    font-size: 1.8rem;
     position:absolute;
     top:0;
-    left:0;
+    left: 0;
     width:100%;
     height:100%;
     background:rgba(0,0,0,0.6);
-    }
+}
 
-.letter {
-    font-size: 1.8rem;
+.container-letter h3 {
+    margin-top: 8rem;
 }
 
 .button-color {
@@ -157,8 +152,8 @@ nav.modify {
 }
 
 [alt="shape"] {
-    width: 10%;
-    height: 10%;
+    width: 8%;
+    height: 8%;
     margin: 15px;
 }
 
@@ -238,3 +233,70 @@ input:-moz-placeholder { color:#FFFFFF; }
 .span {
     padding-left: 10px;
 }
+
+/* Media Queries */
+
+/* Vista desk */
+
+@media (min-width:992px) {
+
+    /* Styles for first section */
+
+    .color h3 {
+        color: #FFFFFF;
+        font-family: 'Raleway', sans-serif;
+        margin: 40px;
+        margin-bottom: 0;
+    }
+
+    [alt="logo-blanco"] {
+        margin-left: 1rem;
+    }
+    
+    .content {
+        box-sizing: content-box;
+        height: 2px;
+        background-color: #fff;
+        overflow: visible;
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+    
+    .content::before {
+        width: 10%;
+        position: absolute;
+        background-color: #F7B617;
+        display: inline-block;
+        font-size: 1em;
+        color: #fff;
+        top: -0.7em;
+        text-align: center;
+        content: 'O bien'; 
+    }
+
+    /* Styles for second section */
+
+    .container-first-section {
+        display: flex;
+        justify-content: flex-start;
+        background-color: #F7B617;
+        color: #FFFFFF;
+        font-family: 'Raleway', sans-serif;
+        margin-bottom: 100px;
+    }
+}
+
+
+
+
+/* Styles for third section */
+
+/* .container-letter-lg {
+    font-size: 1.8rem;
+    position:absolute;
+    top:0;
+    right: 0;
+    height: 100%;
+    background:rgba(0,0,0,0.6);
+} */
