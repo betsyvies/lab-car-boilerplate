@@ -19,7 +19,6 @@ nav.modify {
 
 .modify .color-grey-white {
     border-color: #DDDDDD;
-    margin-bottom: 0;
     margin-top: 15px; 
 }
 
@@ -63,7 +62,6 @@ nav.modify {
 .container-first-section {
     background-color: #F7B617;
     color: #FFFFFF;
-    padding-bottom: 5rem;
 }
 
 .first-section {
@@ -210,9 +208,10 @@ input:-moz-placeholder { color:#FFFFFF; }
 
 .icon-black img {
     display: inline-block;
-    width: 18rem;
+    width: 15.5rem;
     height: 5.4rem;
     margin-bottom: 2rem;
+    margin-left: 1rem;
 }
 
 /* Media Queries */
@@ -329,7 +328,7 @@ input:-moz-placeholder { color:#FFFFFF; }
     }
 
     .map {
-        width: 50rem;
+        width: 40rem;
         margin-top: 5.5rem;
         margin-bottom: 0;
     }
@@ -338,23 +337,30 @@ input:-moz-placeholder { color:#FFFFFF; }
 
     .container-col {
         position:relative;
-        left: 5%;
+        left: 4%;
         margin-bottom: 5%;
         margin-top: 5%;
     }
 
+    .container-list {
+        margin-right: 8rem;
+    }
+
     .icon-white {
         display: inline-block;
-        margin-bottom: 3rem;
-        margin-left: 5rem;
+        margin-bottom: 1rem;
+        margin-top: 30rem;
     }
     
+    .icon-black {
+        margin-top: 20rem;
+    }
+
     .icon-black img {
         display: inline-block;
         width: 18rem;
         height: 5.4rem;
         margin-bottom: 2rem;
-        margin-left: 5rem;
     }
 }
 
