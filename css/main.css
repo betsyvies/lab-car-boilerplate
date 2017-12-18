@@ -20,10 +20,15 @@ nav.modify {
 .modify .color-grey-white {
     border-color: #DDDDDD;
     margin-top: 15px; 
+    margin-left: 3rem;
 }
 
 .modify .color-grey-white .color-grey {
     background-color: #888888;
+}
+
+[alt="logoForma"] {
+    margin-left: 5rem;
 }
 
 /* Style for first section */
