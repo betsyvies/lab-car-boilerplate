@@ -371,5 +371,37 @@ input:-moz-placeholder { color:#FFFFFF; }
 
 /* Styles for modals */
 
+.background-modal {
+    background-color: #08AC9D;
+    color: #000;
+}
+
+[alt="Fjords"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.background-modal-body {
+    border-radius: 1.5rem;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F5F5F5;
+}
+
+.container-group {
+    margin-bottom: 1rem;
+}
+
+.color-button {
+    background-color: #F0AD4E;
+}
+
+
+
+
+
+
 
 
