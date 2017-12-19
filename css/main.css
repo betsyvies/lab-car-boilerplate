@@ -31,6 +31,10 @@ nav.modify {
     margin-left: 5rem;
 }
 
+.hamburger-nav ul li:hover {
+    background-color: #F7B617;
+}
+
 /* Style for first section */
 
 .background {
@@ -376,16 +380,18 @@ input:-moz-placeholder { color:#FFFFFF; }
 .background-modal {
     background-color: #08AC9D;
     color: #000;
+    width: 90%;
 }
 
 [alt="Fjords"] {
+    width: 15rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
 .background-modal-body {
-    border-radius: 1.5rem;
+    border-radius: 1rem;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
@@ -431,6 +437,21 @@ input:-moz-placeholder { color:#FFFFFF; }
     background-color: #DDDDDD;
 }
 
+/* Stytles for modal driver */
+
+.background-modal-driver {
+    width: 80%;
+    background-color: #A9A9A9;
+    color: #000;
+}
+
+.width-button {
+    width: 100%;
+}
+
+.color-select p {
+    color: #83898F;
+}
 
 
 
